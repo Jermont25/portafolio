@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  
+  /* Estilos de encabezado */
+  header {
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 57px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+  }
+
+  header img{
+    clip-path: circle(49%);
+    height: 168px;
+    position: relative;
+    top: -24px;
+    left: 813px;
+  }
+  
+  header h1 {
+    margin: 0;
+    color: azure;
+    margin: 0;
+    position: absolute;
+    left: 853px;
+    top: 224px;
+  }
+  header ul{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    position: absolute;
+    left: 44px;
+    top: 10px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  /* Estilos de secciones */
+  section {
+    padding: 40px;
+  }
+  
+  #inicio {
+    background-color: #000000;
+    color: azure;
+  }
+
+  
+  #proyectos {
+    background-color: #000000;
+    color: azure;
+  }
+  
+  .proyecto {
+    margin-bottom: 20px;
+  }
+  
+  #sobre-mi {
+    background-color: #000000;
+    color: azure;
+  }
+  
+  #contacto {
+    background-color: #000000;
+    color: azure;
+  }
+  
+  /* Estilos de pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos de enlaces */
+  a:hover {
+    color: #000;
+  }
+  
+  /* Estilos de texto */
+  p {
+    line-height: 1.5;
+  }
