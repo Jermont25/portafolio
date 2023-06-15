@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Mi Portafolio Personal</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://kit.fontawesome.com/bd9954ccb3.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -12,51 +13,113 @@
     <h1>Jerson Uribe</h1>
     <nav>
       <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
         <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
         <li><a href="#contacto">Contacto</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="inicio">
-    <h2>¡Hola!, bienvenido a mi portafolio</h2>
-    <p>¡Hola! Soy [Tu Nombre], y este es mi portafolio personal.</p>
-    <p>¡Explora mis proyectos y conoce más sobre mí!</p>
+  <section id="sobre-mi">
+    <img src="https://i.imgur.com/o6BAfdi.jpg" alt="Foto sobre mí" class="imagen-sobre-mi">
+    
+      <div>
+        <h2>Sobre mí</h2>
+          <p>Soy Jerson, un desarrollador de software con experiencia en desarrollo web y servicio al cliente. Me apasiona la programación y explorar nuevas tecnologías para crear soluciones eficientes y mejorar la experiencia del cliente.</p>
+          
+          <ul class="informacion-personal">
+            <li><b>Edad:</b> 22 años</li>
+            <li><b>Ciudad:</b> Bogotá - Colombia</li>
+            <li><b>Dirección:</b> Cll 70 Sur #70C - 44</li>
+            <li><b>Teléfono:</b> +573004751874</li>
+            <li><b>Experiencia:</b> 2 años</li>
+            <li><b>Área:</b> Desarrollo web - Servicio al cliente</li>
+          </ul>
+      </div>
   </section>
 
   <section id="proyectos">
     <h2>Mis Proyectos</h2>
-    <div class="proyecto">
-      <h3>Proyecto 1</h3>
-      <p>Descripción breve del proyecto 1.</p>
-    </div>
-    <div class="proyecto">
-      <h3>Proyecto 2</h3>
-      <p>Descripción breve del proyecto 2.</p>
-    </div>
-    <!-- Agrega más proyectos aquí -->
+
+      <div class="proyecto">
+        <h3>Calculadora Bold</h3>
+        <p>Una calculadora que permite calcular la comisión de Bold SAS en sus diferentes tarifas.</p>
+        <img src="https://bold.co/assets/img/logo-white-674baccb93.png" alt="Logo-bold">
+      </div>
+      
+      <div class="proyecto">
+        <h3>Tucuenta.com</h3>
+        <p>Sitio web oficial de mi emprendimiento.</p>
+        <img src="https://i.imgur.com/KyeTjQ5.png" alt="Logo-bold">
+      </div>
+
+      <div class="proyecto">
+        <h3>Portafolio personal</h3>
+        <p>Es el sitio en el que estás navegando, fue desarrollado desde 0. </p>
+        <i class="fa-solid fa-user"></i>
+      </div>
   </section>
 
-  <section id="sobre-mi">
-    <h2>Sobre Mí</h2>
-    <p>Hola, soy Jerson, un desarrollador de software con experiencia en desarrollo web y servicio al cliente. Me apasiona la programación y me gusta explorar tecnologías nuevas e innovadoras para crear soluciones eficientes y optimizar mi entorno laboral y el de mi equipo de trabajo. 
-      Conozco de primera mano las necesidades de un cliente y trato de usar la tecnologia para hacer de su experiencia algo inolvidable y sencillo de comprender. 
-      </p>
-  </section>
+  <section id="experiencia">
+    <h2>Experiencia y habilidades</h2>
+    
+      <div class="habilidades-y-experiencia">
+        <div id="exp-credi">
+          <h3>Experiencia</h3>
+          <img src="https://yulder.co/wp-content/uploads/2022/12/CREDIBANCO-2023-770x470.jpg" alt="credibanco-logo" id="logo-credibanco">
+          <p><b>Asesor de servicio al cliente</b></p>
+          <p><i>Marzo 23 del 2021 - Julio 02 del 2022</i></p>
+          
+        </div>
 
+        <div id="exp-bold">
+          <img src="https://bold.co/assets/img/logo-white-674baccb93.png" alt="bold-logo" id="logo-bold">
+          <p><b>Customer Experience Expert</b></p>
+          <p><i>Octubre 18 del 2022 - Actualmente</i></p>
+          
+        </div>
+      </div>
+    
+      <div class="habilidades-y-experiencia">
+        <h3>Habilidades</h3>
+        <ul>
+          <li>Desarrollo de software (JavaScript, Python)</li>
+          <li>Diseño web (HTML, CSS)</li>
+          <li>Diseño gráfico (Abode Express)</li>
+          <li>Servicio al cliente (Chat, Voz, Correo)</li>
+        </ul>
+
+        <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="java-script-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" alt="HTML-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/250px-CSS3_logo_and_wordmark.svg.png" alt="CSS-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="python-logo">
+            <img src="https://store-images.s-microsoft.com/image/apps.48249.14075264175091512.e6069598-be57-4d96-bc28-bbca35469576.15acb55f-0e71-4ece-a5ac-d02eeefef83f" alt="abode-express-logo">        
+        </div>
+
+      </div>
+  </section>
+  
   <section id="contacto">
     <h2>Contacto</h2>
-    <p>Puedes contactarme a través de los siguientes medios:</p>
     <ul>
-      <li>Email: tuemail@example.com</li>
-      <li>Teléfono: +1234567890</li>
-      <li>Redes Sociales: [Enlaces a tus perfiles de redes sociales]</li>
+      <li><b>Email</b>: jerson.jhum@gmail.com</li>
+      <li><b>Teléfono</b>: +57 3004751874</li>
     </ul>
+      <nav>
+        <ul>
+          <li><a href="https://www.facebook.com/profile.php?id=100006771377673" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a></li>
+          <li><a href="https://github.com/Jermont25" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/jerson-uribe-montenegro-638778194/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="http://wa.me/573004751874" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></a></li>
+        </ul>
+      </nav>
+    
   </section>
 
   <footer>
+    
     <p>Derechos de autor © 2023 Jerson Uribe</p>
   </footer>
 </body>
