@@ -2,11 +2,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background-image: url("https://i.imgur.com/aU446dX.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
   
-  h1, h2, h3 {
-    color: #333;
+  h2{
+    background: linear-gradient(to right, #2eddb7, #114594);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
   }
   
   a {
@@ -14,37 +22,31 @@ body {
     color: #ffffff;
   }
   
-  ul {
-    list-style-type: none;
-    padding: 0;
-    
-  }
   
   /* Estilos de encabezado */
   header {
-    background-image: url(https://i.imgur.com/qGLwwnL.jpg);
+    background-image: url(https://img.freepik.com/foto-gratis/hermoso-tiro-montanas-cielo-despejado-fondo_181624-3611.jpg?w=900&t=st=1686372692~exp=1686373292~hmac=5f73eb03c57f216d7aba80b313780f3d842cc7e408b6f680aa0bb94458afcb99);
     background-size: cover;
     background-position: center;
     padding: 57px;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: multiply;
+    text-align: center;
   }
 
   header img{
     clip-path: circle(49%);
     height: 168px;
-    position: relative;
-    top: -24px;
-    left: 813px;
+    display:inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
   }
   
   header h1 {
     margin: 0;
     color: azure;
     margin: 0;
-    position: absolute;
-    left: 853px;
-    top: 224px;
   }
   header ul{
     list-style-type: none;
@@ -63,31 +65,161 @@ body {
   /* Estilos de secciones */
   section {
     padding: 40px;
-  }
-  
-  #inicio {
-    background-color: #000000;
-    color: azure;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
+  #sobre-mi {
+    background-color: rgba(255, 255, 255, 0);
+    color: azure;
+    
+  }
+ 
+  #sobre-mi h2{
+    background: linear-gradient(to right, #2eddb7, #114594);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 65px;
+    margin: 0px 0px 20px 0px;
+  }
+
+  #sobre-mi p{
+    max-width: 550px;
+    margin: 0px 0px 20px 0px;
+    
+  }
+  #sobre-mi ul{
+    columns: 2;
+    border: solid 1px #2eddb7;
+    column-fill: balance;
+    border-radius: 10px;
+    list-style-type: none;
+    padding: 0;
+  }
+  #sobre-mi li{
+    padding: 12px 12px;
+  }
+  #sobre-mi img{
+    width: 320px;
+    height: 324px;
+  }
+  
   
   #proyectos {
-    background-color: #000000;
+    background-color: rgba(255, 255, 255, 15%);
     color: azure;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
   }
+  
   
   .proyecto {
-    margin-bottom: 20px;
-  }
+    margin: 0px 10px 0px 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(338deg, #114594, #2eddb7);
   
-  #sobre-mi {
-    background-color: #000000;
+  }
+
+  .proyecto p{
+    margin: 8px;
+    font-size: 13px;
+  }
+
+  .proyecto img{
+    width: 100px;
+    margin-top: 5px;
+  }
+
+  .proyecto h3{
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .proyecto i{
+    font-size: 60px;
+  }
+
+
+.habilidades-y-experiencia{
+    margin: 0px 10px 0px 10px;
+    width: 450px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(338deg, #114594, #2eddb7);
     color: azure;
-  }
-  
+}
+.habilidades-y-experiencia h3{
+  font-size: 30px;
+}
+.habilidades-y-experiencia ul{
+  list-style-position: inside;
+
+}
+.habilidades-y-experiencia li{
+  text-align: left;
+  padding: 10px;
+}
+.habilidades-y-experiencia img{
+  width: 80px;
+  height: 80px;
+  margin-top: 5px;
+}
+#logo-bold, #logo-credibanco{
+  width: 100px;
+  height: 39px;
+}
+.habilidades-y-experiencia div{
+  width: 381px;
+  height: 178px;
+}
+#exp-credi{
+  margin-bottom: 10px;
+}
+
+#exp-bold{
+  margin-top: 84px;
+}
+
   #contacto {
-    background-color: #000000;
+    background-color: rgba(255, 255, 255, 15%);
     color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #contacto ul{
+    list-style-type: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  #contacto li{
+    padding: 20px;
+  }
+
+  #contacto i{
+    font-size: 50px;
+  }
+  
+  #contacto h2{
+    margin: 0px;
   }
   
   /* Estilos de pie de página */
